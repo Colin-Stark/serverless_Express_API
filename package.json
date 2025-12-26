@@ -1,0 +1,28 @@
+{
+  "name": "serverless",
+  "version": "0.0.1",
+  "description": "serverless express api test",
+  "keywords": [
+    "Express",
+    "API",
+    "MongoDB",
+    "JavaScript",
+    "DevOps",
+    "Docker"
+  ],
+  "homepage": "https://github.com/Colin-Stark/serverless_Express_API#readme",
+  "bugs": {
+    "url": "https://github.com/Colin-Stark/serverless_Express_API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colin-Stark/serverless_Express_API.git"
+  },
+  "license": "ISC",
+  "author": "Collins Olokpedje",
+  "type": "commonjs",
+  "main": "api/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
