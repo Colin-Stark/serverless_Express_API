@@ -6,5 +6,5 @@ app.get('/', (req, res) => {
     res.json({ message: 'Hello from Express on Vercel!' });
 });
 
-// Export the Express app
-module.exports = app;
+// Export a handler function for Vercel serverless deployment
+module.exports = (req, res) => app(req, res);
